@@ -1,4 +1,4 @@
-# Unit 3 Homework
+#Unit 3 Homework
 
 #PyBank Challenge
 
@@ -19,9 +19,6 @@ profit_loss_change = 0
 
 #Declaring file path
 csvpath = os.path.join("Resources","budget_data.csv")
-
-#Module_3/python-challenge/PyBank/Resources/budget_data.csv
-#Module_3/python-challenge/PyBank/main.py
 
 #Open File and print headers
 with open(csvpath) as csvfile:
