@@ -78,7 +78,7 @@ Analysis_File = os.path.join("Analysis", "Analysis_File.txt")
 with open(Analysis_File,"w") as Analysis_Output:
     Analysis_Output.write(f"Financial Analysis\n")
     Analysis_Output.write(f"----------------------------\n")
-    Analysis_Output.write(f"Total Months: ${count_months}\n")
+    Analysis_Output.write(f"Total Months: {count_months}\n")
     Analysis_Output.write(f"Total: ${total_profit_loss}\n")
     Analysis_Output.write(f"Average Change: {Mean_Profit_Loss}\n")    
     Analysis_Output.write(f"Greatest Increase in Profits: {Max_Month_Converter} (${Max_Profit})\n")  
