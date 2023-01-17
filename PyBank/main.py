@@ -67,7 +67,7 @@ Min_Month_Converter = months[Min_Profit_Month]
 #Printing output
 print(f"Financial Analysis")
 print(f"----------------------------")
-print(f"Total Months: ${count_months}")
+print(f"Total Months: {count_months}")
 print(f"Total: ${total_profit_loss}")
 print(f"Average Change: {Mean_Profit_Loss}")
 print(f"Greatest Increase in Profits: {Max_Month_Converter} (${Max_Profit})")
